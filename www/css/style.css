@@ -1,0 +1,50 @@
+/* Empty. Add your own CSS if you like */
+
+.slide1{
+    background-image: url('../img/um.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.slider {
+    height: 100%;
+  }
+
+.slide2{
+    background-image: url('../img/dois.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.slide3{
+    background-image: url('../img/logo.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.div1{
+    background-color: antiquewhite;
+  }
+  
+  .div2{
+    background-color: coral;
+  }
+  
+.lista{
+    padding-top: 400px;
+}
+
+.botao{
+   margin-top: 500px;
+   margin-left: 200px;
+}
+
+.table {
+    margin-top: 20px;
+}

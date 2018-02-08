@@ -1,0 +1,10 @@
+<ion-view hide-nav-bar="true">
+  <section></section>
+  <table ng-show="atividades.length > 0" class="table">
+    <tr ng-repeat="atividade in atividades">
+      <td><input type="checkbox"/></td>
+      <td ng-click="showAlert()"> {{atividade.nome}}</td>
+    </tr>
+  </table>
+  <button ng-click="concluir(atividade)" class="button">Concluído</button>
+</ion-view>

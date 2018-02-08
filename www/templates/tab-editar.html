@@ -1,0 +1,18 @@
+<ion-view view-title="Gerencie suas atividades">
+    <ion-content class="padding">
+        <div class="list" >
+            <label class="item item-input">
+                <input type="date" placeholder="Data">
+            </label>
+            <label class="item item-input">
+                <input type="time" placeholder="Hora">
+            </label>
+            
+            {{pegarTexto}}
+            <ion-toggle ng-model="airplaneMode" toggle-class="toggle-calm">Notificação</ion-toggle>
+            <button ng-click="showAlert1()" class="button button-block button-positive">ok</button>
+        </div>
+    </ion-content>
+</ion-view>
+
+<!-- ng-repeat="listado in listados" -->
